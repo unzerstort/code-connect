@@ -4,7 +4,7 @@ import styles from "./cardpost.module.css"
 
 export const CardPost = ({ post }) => {
     return (
-        <article className={styles.article}>
+        <article className={styles.card}>
             <header className={styles.header}>
                 <figure>
                     <Image 
